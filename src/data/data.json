@@ -1,0 +1,40 @@
+{
+  "skills": [
+    {
+      "title": "React",
+      "image": "react.svg"
+    },
+    {
+      "title": "JavaScript",
+      "image": "javascript.svg"
+    },
+    {
+      "title": "Java",
+      "image": "java.svg"
+    },
+    {
+      "title": "HTML5",
+      "image": "html5.svg"
+    },
+    {
+      "title": "CSS3",
+      "image": "css3.svg"
+    },
+    {
+      "title": "TailwindCSS",
+      "image": "tailwindcss.svg"
+    },
+    {
+      "title": "MySQL",
+      "image": "mysql.svg"
+    },
+    {
+      "title": "MongoDB",
+      "image": "mongodb.svg"
+    },
+    {
+      "title": "Git",
+      "image": "git.svg"
+    }
+  ]
+}
