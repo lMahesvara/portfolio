@@ -2,7 +2,7 @@ import data from '../data/data.json'
 import SectionTitle from './SectionTitle'
 import Skill from './Skill'
 
-const skills = data.skills
+const { skills } = data
 
 const Skills = () => {
   return (

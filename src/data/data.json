@@ -36,5 +36,81 @@
       "title": "Git",
       "image": "git.svg"
     }
+  ],
+  "projects": [
+    {
+      "title": "Portfolio",
+      "image": "ejemplo.jpg",
+      "description": "Portfolio personal",
+      "demo": "http://localhost:5173/",
+      "github": "https://github.com/lMahesvara/portfolio",
+      "tags": ["React", "TailwindCSS"]
+    },
+    {
+      "title": "NewsApp",
+      "image": "ejemplo.jpg",
+      "description": "Aplicación web de noticias con diferentes categorías y búsqueda, consumiendo una API",
+      "demo": "https://news-app-seven-iota.vercel.app/general",
+      "github": "https://github.com/Open-Bootcamp/news-app",
+      "tags": ["React", "TailwindCSS", "Mobile-first"]
+    },
+    {
+      "title": "CountriesApp",
+      "image": "ejemplo.jpg",
+      "description": "Aplicación web que muestra información de los países del mundo, consumiendo una API de terceros",
+      "demo": "https://eb-countriesapp.netlify.app/",
+      "github": "https://github.com/lMahesvara/countries-app",
+      "tags": ["React", "CSS3"]
+    },
+    {
+      "title": "Social media dashboard",
+      "image": "ejemplo.jpg",
+      "description": "Reto de Frontend Mentor, una página web que muestra estadísticas de redes sociales",
+      "demo": "https://eb-social-media-dashboard.netlify.app/",
+      "github": "https://github.com/lMahesvara/frontend-mentor-dashboard",
+      "tags": ["React", "TailwindCSS", "Mobile-first"]
+    },
+    {
+      "title": "Notifications page",
+      "image": "ejemplo.jpg",
+      "description": "Reto de Frontend Mentor, página web que simula un panel de notificaciones",
+      "demo": "https://eb-notifications-page.netlify.app/",
+      "github": "https://github.com/lMahesvara/frontend-mentor-notifications-page",
+      "tags": ["HTML5", "TailwindCSS", "JavaScript"]
+    },
+    {
+      "title": "Interactive Card",
+      "image": "ejemplo.jpg",
+      "description": "Reto de Frontend Mentor, formulario interactivo con validación de campos",
+      "demo": "https://eb-interactive-card.netlify.app/",
+      "github": "https://github.com/lMahesvara/frontend-mentor-interactive-card",
+      "tags": ["HTML5", "CSS3", "JavaScript"]
+    },
+    {
+      "title": "JuatsApp",
+      "image": "ejemplo.jpg",
+      "description": "Aplicación de escritorio de clon de WhatsApp utilizando Java con MongoDB ",
+      "demo": "",
+      "github": "https://github.com/lMahesvara/Proyecto3_228450_205540",
+      "tags": ["Java", "MongoDB"]
+    },
+    {
+      "title": "Bot Comparator",
+      "image": "ejemplo.jpg",
+      "description": "Aplicación web que compara los precios de los productos de diferentes tiendas usando web scraping",
+      "demo": "",
+      "github": "https://github.com/NogyOne/Apps-Web/blob/main/index.html",
+      "tags": ["Java", "HTML5", "CSS3", "JavaScript", "MongoDB", "Bootsrap"],
+      "status": "Coming soon..."
+    },
+    {
+      "title": "Faceboot",
+      "image": "ejemplo.jpg",
+      "description": "Clon de facebook implementando una arquitectura de Blackboard con CRUD de usuarios, publicaciones y comentarios",
+      "demo": "",
+      "github": "https://github.com/NogyOne/Apps-Web/blob/main/index.html",
+      "tags": ["Java", "MongoDB", "MySQL", "Log4j", "Twilio"],
+      "status": "Coming soon..."
+    }
   ]
 }

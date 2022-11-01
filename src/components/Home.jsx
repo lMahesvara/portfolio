@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 const Home = () => {
   return (
-    <section className='mx-auto flex min-h-[calc(100vh-2rem)] max-w-6xl flex-col items-center justify-center gap-6 px-4 md:flex-row md:justify-between'>
+    <section className='mx-auto flex min-h-[calc(100vh-2rem)] max-w-6xl flex-col items-center justify-center  gap-6 md:flex-row md:justify-between md:px-4'>
       <article className='flex flex-col items-center gap-5 md:items-start'>
         <h1 className='text-tert  text-3xl font-black text-primary-500 sm:text-5xl '>
           Erick Bernal Amparano
@@ -18,14 +18,14 @@ const Home = () => {
             target='_blank'
             rel='noreferrer noopener'
           >
-            <AiFillGithub className='h-8 w-8 text-red-50 transition-all duration-300 hover:h-10 hover:w-10 hover:text-primary-200' />
+            <AiFillGithub className='h-8 w-8 text-white transition-all duration-300 hover:h-10 hover:w-10 hover:text-primary-200' />
           </a>
           <a
             href='https://github.com/lMahesvara'
             target='_blank'
             rel='noreferrer noopener'
           >
-            <AiFillLinkedin className='h-8 w-8 text-red-50 transition-all duration-300 hover:h-10 hover:w-10 hover:text-primary-200' />
+            <AiFillLinkedin className='h-8 w-8 text-white transition-all duration-300 hover:h-10 hover:w-10 hover:text-primary-200' />
           </a>
         </div>
         <a
