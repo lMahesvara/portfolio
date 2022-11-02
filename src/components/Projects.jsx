@@ -6,7 +6,10 @@ const { projects } = data
 
 const Projects = () => {
   return (
-    <section className='mx-auto mt-16 flex flex-col items-center gap-16'>
+    <section
+      id='projects'
+      className='mx-auto mt-8 mb-4 flex flex-col items-center gap-16'
+    >
       <SectionTitle>Projects</SectionTitle>
       <div className='grid grid-cols-1 gap-10  md:grid-cols-2 lg:grid-cols-3'>
         {projects.map((project, index) => (

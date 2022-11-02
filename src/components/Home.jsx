@@ -4,7 +4,10 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 const Home = () => {
   return (
-    <section className='mx-auto flex min-h-[calc(100vh-2rem)] max-w-6xl flex-col items-center justify-center  gap-6 md:flex-row md:justify-between md:px-4'>
+    <section
+      id='home'
+      className='mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center  gap-6 md:flex-row md:justify-between md:px-4'
+    >
       <article className='flex flex-col items-center gap-5 md:items-start'>
         <h1 className='text-tert  text-3xl font-black text-primary-500 sm:text-5xl '>
           Erick Bernal Amparano

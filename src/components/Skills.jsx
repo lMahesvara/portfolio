@@ -6,7 +6,10 @@ const { skills } = data
 
 const Skills = () => {
   return (
-    <section className='mx-auto flex flex-col items-center gap-16 '>
+    <section
+      id='skills'
+      className='mx-auto flex min-h-[50vh] flex-col items-center gap-16 '
+    >
       <SectionTitle>Skills</SectionTitle>
       <article className='flex max-w-xl flex-wrap justify-center gap-5'>
         {skills.map((skill, index) => (
