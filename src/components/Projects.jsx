@@ -39,7 +39,7 @@ const Projects = () => {
           ))}
         </div>
         <button
-          className='rounded-md bg-primary-500 px-4 py-2 text-white shadow-md transition-colors duration-300 ease-in-out hover:bg-primary-600'
+          className='rounded-md bg-primary-500 px-4 py-2 font-inter font-bold text-black transition duration-300 ease-in-out hover:bg-primary-200'
           onClick={handleShowMore}
         >
           {buttonText}
