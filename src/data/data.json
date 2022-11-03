@@ -48,7 +48,7 @@
     },
     {
       "title": "NewsApp",
-      "image": "ejemplo.jpg",
+      "image": "news-app.png",
       "description": "Aplicación web de noticias con diferentes categorías y búsqueda, consumiendo una API",
       "demo": "https://news-app-seven-iota.vercel.app/general",
       "github": "https://github.com/Open-Bootcamp/news-app",
@@ -56,7 +56,7 @@
     },
     {
       "title": "CountriesApp",
-      "image": "ejemplo.jpg",
+      "image": "countries-app.png",
       "description": "Aplicación web que muestra información de los países del mundo, consumiendo una API de terceros",
       "demo": "https://eb-countriesapp.netlify.app/",
       "github": "https://github.com/lMahesvara/countries-app",
@@ -64,7 +64,7 @@
     },
     {
       "title": "Social media dashboard",
-      "image": "ejemplo.jpg",
+      "image": "social-media-dashboard.png",
       "description": "Reto de Frontend Mentor, una página web que muestra estadísticas de redes sociales",
       "demo": "https://eb-social-media-dashboard.netlify.app/",
       "github": "https://github.com/lMahesvara/frontend-mentor-dashboard",
@@ -72,7 +72,7 @@
     },
     {
       "title": "Notifications page",
-      "image": "ejemplo.jpg",
+      "image": "notifications-page.png",
       "description": "Reto de Frontend Mentor, página web que simula un panel de notificaciones",
       "demo": "https://eb-notifications-page.netlify.app/",
       "github": "https://github.com/lMahesvara/frontend-mentor-notifications-page",
@@ -80,7 +80,7 @@
     },
     {
       "title": "Interactive Card",
-      "image": "ejemplo.jpg",
+      "image": "interactive-card.png",
       "description": "Reto de Frontend Mentor, formulario interactivo con validación de campos",
       "demo": "https://eb-interactive-card.netlify.app/",
       "github": "https://github.com/lMahesvara/frontend-mentor-interactive-card",
@@ -88,7 +88,7 @@
     },
     {
       "title": "JuatsApp",
-      "image": "ejemplo.jpg",
+      "image": "",
       "description": "Aplicación de escritorio de clon de WhatsApp utilizando Java con MongoDB ",
       "demo": "",
       "github": "https://github.com/lMahesvara/Proyecto3_228450_205540",
@@ -96,16 +96,16 @@
     },
     {
       "title": "Bot Comparator",
-      "image": "ejemplo.jpg",
+      "image": "bot-comparator.png",
       "description": "Aplicación web que compara los precios de los productos de diferentes tiendas usando web scraping",
       "demo": "",
       "github": "https://github.com/NogyOne/Apps-Web/blob/main/index.html",
-      "tags": ["Java", "HTML5", "CSS3", "JavaScript", "MongoDB", "Bootsrap"],
+      "tags": ["Java", "HTML5", "CSS3", "JavaScript", "MongoDB", "Bootstrap"],
       "status": "Coming soon..."
     },
     {
       "title": "Faceboot",
-      "image": "ejemplo.jpg",
+      "image": "",
       "description": "Clon de facebook implementando una arquitectura de Blackboard con CRUD de usuarios, publicaciones y comentarios",
       "demo": "",
       "github": "https://github.com/NogyOne/Apps-Web/blob/main/index.html",
