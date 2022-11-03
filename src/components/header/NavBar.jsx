@@ -50,6 +50,9 @@ const NavBar = () => {
         <LinkMenu section={'projects'} offset={-55} onClick={handleLinkClick}>
           Projects
         </LinkMenu>
+        <LinkMenu section={'contact'} offset={-65} onClick={handleLinkClick}>
+          Contact
+        </LinkMenu>
 
         <button className='hidden'>Dark</button>
       </div>
