@@ -27,19 +27,23 @@
   flex-direction: column;
 }
 
-/* Change scrollbar design */
+/* width */
 ::-webkit-scrollbar {
-  width: '.60rem';
+  width: 0.6rem;
 }
 
+/* Track */
 ::-webkit-scrollbar-track {
-  background: #642828;
+  background: rgb(160, 174, 192);
 }
 
+/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(136, 32, 32);
+  background: rgb(71, 81, 95);
+  border-radius: 0.5rem;
 }
 
+/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(124, 30, 30);
+  background: rgb(102, 111, 123);
 }

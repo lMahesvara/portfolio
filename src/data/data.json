@@ -39,14 +39,6 @@
   ],
   "projects": [
     {
-      "title": "Portfolio",
-      "image": "ejemplo.jpg",
-      "description": "Portfolio personal",
-      "demo": "http://localhost:5173/",
-      "github": "https://github.com/lMahesvara/portfolio",
-      "tags": ["React", "TailwindCSS"]
-    },
-    {
       "title": "NewsApp",
       "image": "news-app.png",
       "description": "Aplicación web de noticias con diferentes categorías y búsqueda, consumiendo una API",
@@ -85,6 +77,14 @@
       "demo": "https://eb-interactive-card.netlify.app/",
       "github": "https://github.com/lMahesvara/frontend-mentor-interactive-card",
       "tags": ["HTML5", "CSS3", "JavaScript"]
+    },
+    {
+      "title": "Portfolio",
+      "image": "ejemplo.jpg",
+      "description": "Portfolio personal",
+      "demo": "http://localhost:5173/",
+      "github": "https://github.com/lMahesvara/portfolio",
+      "tags": ["React", "TailwindCSS"]
     },
     {
       "title": "JuatsApp",

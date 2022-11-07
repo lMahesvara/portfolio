@@ -21,14 +21,14 @@ const Home = () => {
             target='_blank'
             rel='noreferrer noopener'
           >
-            <AiFillGithub className='h-8 w-8 text-white transition-all duration-300 hover:h-10 hover:w-10 hover:text-primary-200' />
+            <AiFillGithub className='h-8 w-8 text-white transition-all duration-300 hover:text-primary-200' />
           </a>
           <a
             href='https://github.com/lMahesvara'
             target='_blank'
             rel='noreferrer noopener'
           >
-            <AiFillLinkedin className='h-8 w-8 text-white transition-all duration-300 hover:h-10 hover:w-10 hover:text-primary-200' />
+            <AiFillLinkedin className='h-8 w-8 text-white transition-all duration-300 hover:text-primary-200' />
           </a>
         </div>
         <a
