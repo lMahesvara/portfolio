@@ -31,7 +31,7 @@ const ProjectCard = ({
       </h3>
       <div className='relative h-40 min-h-[10rem] w-80 cursor-pointer overflow-hidden'>
         <img
-          src={`public/images/${image || 'default.svg'}`}
+          src={`public/images/projects/${image || 'default.svg'}`}
           alt={title}
           className='h-full w-full'
         />
