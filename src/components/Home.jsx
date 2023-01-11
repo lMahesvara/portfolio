@@ -1,5 +1,5 @@
 import Lottie from 'lottie-react'
-import lottieImage from '../images/web-dev.json'
+import lottieImage from '../../public/images/web-dev.json'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 const Home = () => {
