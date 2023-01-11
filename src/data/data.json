@@ -91,7 +91,7 @@
       "image": "faceboot.png",
       "description": "Clon de facebook implementando una arquitectura de Blackboard con CRUD de usuarios, publicaciones y comentarios",
       "demo": "",
-      "github": "https://github.com/NogyOne/Apps-Web/blob/main/index.html",
+      "github": "https://github.com/lMahesvara/blackboard",
       "tags": ["Java", "MongoDB", "MySQL", "Log4j", "Twilio", "JavaMail"]
     },
     {
