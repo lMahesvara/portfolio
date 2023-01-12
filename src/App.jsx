@@ -9,7 +9,7 @@ import { LanguageProvider } from './context/LanguageContext'
 
 function App() {
   return (
-    <div className='flex min-h-screen flex-col bg-slate-800'>
+    <div className='flex min-h-screen flex-col overflow-x-hidden bg-slate-800'>
       <ScrollToTop
         smooth
         className='bottom-6 right-6 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-primary-500 text-black shadow-none hover:bg-primary-600 md:bottom-8 md:right-8 lg:bottom-8 lg:right-20'
