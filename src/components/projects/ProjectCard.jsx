@@ -17,9 +17,6 @@ const ProjectCard = ({
 }) => {
   const { texts } = useContext(LanguageContext)
   const { projects } = texts.projects
-  const imageStyle = image
-    ? 'opacity-0 hover:opacity-100'
-    : 'opacity-100 hover:opacity-0'
 
   return (
     <article className='relative flex min-h-[24rem] w-80 flex-col items-start justify-start rounded-md bg-white'>
@@ -31,8 +28,10 @@ const ProjectCard = ({
           src={`src/images/projects/${image || 'default.svg'}`}
           alt={title}
           className='h-full w-full'
+          decoding='async'
+          loading='lazy'
         />
-        <ProjectDemo demo={demo} status={status} imageStyle={imageStyle} />
+        <ProjectDemo demo={demo} status={status} image={image} />
       </div>
       <p className='h-24 w-full p-5 text-sm'>
         {projects.find(el => el[id])?.[id]?.description}
@@ -55,15 +54,3 @@ const ProjectCard = ({
 }
 
 export default ProjectCard
-
-/* default props */
-ProjectCard.defaultProps = {
-  title: 'Title',
-  image: 'ejemplo.jpg',
-  demo: 'http://localhost:5173/',
-  github: '',
-  description:
-    'Portfolio personal realizado en React optimizado para una rápida apertura y baja transferencia.',
-  tags: ['React', 'TailwindCSS'],
-  isDeployed: true
-}

@@ -1,6 +1,10 @@
 import { BiLinkExternal } from 'react-icons/bi'
 
-const ProjectDemo = ({ demo, status, imageStyle }) => {
+const ProjectDemo = ({ demo, status, image }) => {
+  const imageStyle = image
+    ? 'opacity-0 hover:opacity-100'
+    : 'opacity-100 hover:opacity-0'
+
   return (
     <>
       {demo ? (

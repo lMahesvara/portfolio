@@ -27,14 +27,14 @@ const Projects = () => {
     getWindowsWidth()
     return () => window.removeEventListener('resize', getWindowsWidth)
   }, [total])
-  const buttonText = total ? texts.projects.less : texts.projects.more
+  const buttonText = total ? texts?.projects.less : texts?.projects.more
 
   return (
     <section
       id='projects'
       className='mx-auto mt-8 mb-4 flex flex-col items-center gap-16'
     >
-      <SectionTitle>{texts.projects.title}</SectionTitle>
+      <SectionTitle>{texts?.projects.title}</SectionTitle>
       <div className='flex flex-col items-center gap-4'>
         <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3'>
           {projectsToShow.map((project, index) => (
