@@ -25,7 +25,7 @@ const ProjectCard = ({
       </h3>
       <div className='relative h-40 min-h-[10rem] w-80 cursor-pointer overflow-hidden'>
         <img
-          src={`src/images/projects/${image || 'default.svg'}`}
+          src={`src/img/projects/${image || 'default.svg'}`}
           alt={title}
           className='h-full w-full'
           decoding='async'
