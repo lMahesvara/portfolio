@@ -3,7 +3,7 @@ const Skill = ({ image, title }) => {
     <div className='flex flex-col items-center gap-2'>
       <img
         className='h-20 w-20'
-        src={`public/images/skills/${image}`}
+        src={`src/images/skills/${image}`}
         alt={title}
       />
       <h4 className='text-center  text-white'>{title}</h4>

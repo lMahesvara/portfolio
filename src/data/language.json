@@ -1,0 +1,156 @@
+{
+  "es": {
+    "home": {
+      "title": "Inicio",
+      "cv": "Descargar CV"
+    },
+    "skills": {
+      "title": "Habilidades",
+      "description": "Estas son algunas de las habilidades que he desarrollado a lo largo de mi carrera profesional."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "description": "Estos son algunos de los proyectos en los que he participado.",
+      "more": "Ver más",
+      "less": "Ver menos",
+      "projects": [
+        {
+          "newsApp": {
+            "title": "NewsApp",
+            "description": "Aplicación web de noticias con diferentes categorías y búsqueda, consumiendo una API externa."
+          }
+        },
+        {
+          "countriesApp": {
+            "title": "CountriesApp",
+            "description": "Aplicación web que muestra información de los países del mundo, consumiendo una API externa."
+          }
+        },
+        {
+          "socialMediaDashboard": {
+            "title": "Social Media Dashboard",
+            "description": "Reto de Frontend Mentor, diseño de un dashboard de redes sociales con dark mode."
+          }
+        },
+        {
+          "notificationsPage": {
+            "title": "Notifications Page",
+            "description": "Reto de Frontend Mentor, diseño de una página web que simula un panel de notificaciones."
+          }
+        },
+        {
+          "interactiveCard": {
+            "title": "Interactive Card",
+            "description": "Reto de Frontend Mentor, formulario de tarjeta interactivo con validación de campos."
+          }
+        },
+        {
+          "botComparator": {
+            "title": "Bot Comparator",
+            "description": "Aplicación web que ayuda a comparar los precios de productos en diferentes tiendas. Data recopilada mediante web scraping."
+          }
+        },
+        {
+          "faceboot": {
+            "title": "Faceboot",
+            "description": "Red social inspirada en Facebook, implementando una arquitectura de Blackboard con CRUD de usuarios, publicaciones y comentarios."
+          }
+        },
+        {
+          "portfolio": {
+            "title": "Portfolio",
+            "description": "Mi portfolio personal, creado con React y tailwindcss."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Si tienes alguna pregunta o quieres contactarme, puedes hacerlo a través de cualquiera de las siguientes redes sociales.",
+      "name": "Nombre",
+      "namePlaceholder": "Ingresa tu nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "message": "Mensaje",
+      "messagePlaceholder": "Ingresa tu mensaje",
+      "send": "Enviar mensaje"
+    }
+  },
+  "en": {
+    "home": {
+      "title": "Home",
+      "cv": "Download CV"
+    },
+    "skills": {
+      "title": "Skills",
+      "description": "These are some of the skills I have developed throughout my professional career."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "These are some of the projects I have participated in.",
+      "more": "See more",
+      "less": "See less",
+      "projects": [
+        {
+          "newsApp": {
+            "title": "NewsApp",
+            "description": "Web news application with different categories and search, consuming an external API."
+          }
+        },
+        {
+          "countriesApp": {
+            "title": "CountriesApp",
+            "description": "Web application that shows information about countries around the world, consuming an external API."
+          }
+        },
+        {
+          "socialMediaDashboard": {
+            "title": "Social Media Dashboard",
+            "description": "Frontend Mentor challenge, design of a social media dashboard with dark mode."
+          }
+        },
+        {
+          "notificationsPage": {
+            "title": "Notifications Page",
+            "description": "Frontend Mentor challenge, design of a web page that simulates a notification panel."
+          }
+        },
+        {
+          "interactiveCard": {
+            "title": "Interactive Card",
+            "description": "Frontend Mentor challenge, interactive card form with field validation."
+          }
+        },
+        {
+          "botComparator": {
+            "title": "Bot Comparator",
+            "description": "Web application that helps compare the prices of products in different stores. Data collected through web scraping."
+          }
+        },
+        {
+          "faceboot": {
+            "title": "Faceboot",
+            "description": "Social network inspired by Facebook, implementing a Blackboard architecture with CRUD of users, publications and comments."
+          }
+        },
+        {
+          "portfolio": {
+            "title": "Portfolio",
+            "description": "My personal portfolio, created with React and tailwindcss."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "If you have any questions or want to contact me, you can do so through any of the following social networks.",
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "message": "Message",
+      "messagePlaceholder": "Enter your message",
+      "send": "Send message"
+    }
+  }
+}
