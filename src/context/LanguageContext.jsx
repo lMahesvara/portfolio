@@ -3,8 +3,7 @@ import translations from '../data/language.json'
 
 const LanguageContext = createContext()
 
-const initialLanguage = 'es'
-console.log(translations)
+const initialLanguage = 'en'
 
 const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(initialLanguage)
@@ -12,10 +11,10 @@ const LanguageProvider = ({ children }) => {
 
   const handleLanguage = e => {
     const { value } = e.target
+    console.log(value, e.target, e.target.value)
     setLanguage(value)
     setTexts(translations[value])
   }
-
   const data = { texts, handleLanguage }
 
   return (

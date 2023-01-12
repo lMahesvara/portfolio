@@ -39,6 +39,7 @@
   ],
   "projects": [
     {
+      "id": "newsApp",
       "title": "NewsApp",
       "image": "news-app.png",
       "description": "Aplicación web de noticias con diferentes categorías y búsqueda, consumiendo una API",
@@ -47,6 +48,7 @@
       "tags": ["React", "TailwindCSS", "Mobile-first"]
     },
     {
+      "id": "countriesApp",
       "title": "CountriesApp",
       "image": "countries-app.png",
       "description": "Aplicación web que muestra información de los países del mundo, consumiendo una API de terceros",
@@ -55,6 +57,7 @@
       "tags": ["React", "CSS3"]
     },
     {
+      "id": "socialMediaDashboard",
       "title": "Social media dashboard",
       "image": "social-media-dashboard.png",
       "description": "Reto de Frontend Mentor, una página web que muestra estadísticas de redes sociales",
@@ -63,6 +66,7 @@
       "tags": ["React", "TailwindCSS", "Mobile-first"]
     },
     {
+      "id": "notificationsPage",
       "title": "Notifications page",
       "image": "notifications-page.png",
       "description": "Reto de Frontend Mentor, página web que simula un panel de notificaciones",
@@ -71,14 +75,16 @@
       "tags": ["HTML5", "TailwindCSS", "JavaScript"]
     },
     {
+      "id": "interactiveCard",
       "title": "Interactive Card",
       "image": "interactive-card.png",
-      "description": "Reto de Frontend Mentor, formulario interactivo con validación de campos",
+      "description": "Reto de Frontend Mentor, formulario interactivo con validación de, campos",
       "demo": "https://eb-interactive-card.netlify.app/",
       "github": "https://github.com/lMahesvara/frontend-mentor-interactive-card",
       "tags": ["HTML5", "CSS3", "JavaScript"]
     },
     {
+      "id": "botComparator",
       "title": "Bot Comparator",
       "image": "bot-comparator.png",
       "description": "Aplicación web que ayuda a comparar los precios de productos en diferentes tiendas. Data recopilada mediante web scraping",
@@ -87,6 +93,7 @@
       "tags": ["Java", "HTML5", "CSS3", "JavaScript", "MongoDB", "Bootstrap"]
     },
     {
+      "id": "faceboot",
       "title": "Faceboot",
       "image": "faceboot.png",
       "description": "Clon de facebook implementando una arquitectura de Blackboard con CRUD de usuarios, publicaciones y comentarios",
@@ -95,6 +102,7 @@
       "tags": ["Java", "MongoDB", "MySQL", "Log4j", "Twilio", "JavaMail"]
     },
     {
+      "id": "portfolio",
       "title": "Portfolio",
       "image": "ejemplo.jpg",
       "description": "Portfolio personal",

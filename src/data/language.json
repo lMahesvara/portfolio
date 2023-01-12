@@ -73,7 +73,7 @@
       "emailPlaceholder": "Ingresa tu correo electrónico",
       "message": "Mensaje",
       "messagePlaceholder": "Ingresa tu mensaje",
-      "send": "Enviar mensaje"
+      "submit": "Enviar mensaje"
     }
   },
   "en": {
@@ -150,7 +150,7 @@
       "emailPlaceholder": "Enter your email",
       "message": "Message",
       "messagePlaceholder": "Enter your message",
-      "send": "Send message"
+      "submit": "Send message"
     }
   }
 }
