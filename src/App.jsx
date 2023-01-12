@@ -12,7 +12,7 @@ function App() {
     <div className='flex min-h-screen flex-col overflow-x-hidden bg-slate-800'>
       <ScrollToTop
         smooth
-        className='bottom-6 right-6 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-primary-500 text-black shadow-none hover:bg-primary-600 md:bottom-8 md:right-8 lg:bottom-8 lg:right-20'
+        className='bottom-6 right-6 flex h-10 w-10 cursor-pointer items-center justify-center !rounded-full !bg-primary-500 text-black !shadow-none hover:bg-primary-600 md:bottom-8 md:right-8 lg:bottom-8 lg:right-20'
         component={<AiOutlineArrowUp className='h-5 w-5 stroke-2' />}
       />
       <LanguageProvider>
