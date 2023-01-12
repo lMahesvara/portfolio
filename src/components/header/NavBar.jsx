@@ -1,11 +1,14 @@
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import { Link } from 'react-scroll'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import LinkMenu from './LinkMenu'
+import LanguageContext from '../../context/LanguageContext'
+import Language from './Language'
 
 const NavBar = () => {
-  // useState hook
   const [isOpen, setIsOpen] = useState(false)
+  const { texts } = useContext(LanguageContext)
+  const { home, skills, projects, contact } = texts
 
   const handleToggle = () => {
     setIsOpen(!isOpen)
@@ -41,17 +44,18 @@ const NavBar = () => {
           isOpen ? 'left-0 ' : 'left-full '
         } fixed top-12 flex h-[calc(100vh-2rem)] w-full flex-col items-center bg-slate-800 pt-16 text-3xl transition-all duration-500 ease-in-out md:static md:h-auto md:w-auto md:flex-row md:items-start md:gap-8 md:bg-inherit md:pt-0 md:text-xl`}
       >
+        <Language />
         <LinkMenu section={'home'} offset={-55} onClick={handleLinkClick}>
-          Home
+          {home.title}
         </LinkMenu>
         <LinkMenu section={'skills'} offset={-55} onClick={handleLinkClick}>
-          Skills
+          {skills.title}
         </LinkMenu>
         <LinkMenu section={'projects'} offset={-55} onClick={handleLinkClick}>
-          Projects
+          {projects.title}
         </LinkMenu>
         <LinkMenu section={'contact'} offset={-65} onClick={handleLinkClick}>
-          Contact
+          {contact.title}
         </LinkMenu>
 
         <button className='hidden'>Dark</button>
