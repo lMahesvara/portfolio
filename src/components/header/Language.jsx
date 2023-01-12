@@ -2,10 +2,8 @@ import { IoLanguageSharp } from 'react-icons/io5'
 import LanguageContext from '../../context/LanguageContext'
 import { useContext, useState } from 'react'
 
-const initialLanguage = 'es'
-
 const Language = () => {
-  const { handleLanguage } = useContext(LanguageContext)
+  const { handleLanguage, initialLanguage } = useContext(LanguageContext)
   const [language, setLanguage] = useState(initialLanguage)
 
   const handleClick = e => {
