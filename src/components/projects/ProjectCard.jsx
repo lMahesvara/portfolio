@@ -1,7 +1,12 @@
 import { BiLinkExternal } from 'react-icons/bi'
 import { AiFillGithub } from 'react-icons/ai'
+import LanguageContext from '../../context/LanguageContext'
+import { useContext } from 'react'
+import ListOfTags from './ListOfTags'
+import ProjectDemo from './ProjectDemo'
 
 const ProjectCard = ({
+  id,
   title,
   image,
   demo,
@@ -10,16 +15,8 @@ const ProjectCard = ({
   tags,
   status
 }) => {
-  const renderTags = () => {
-    return tags.map((tag, index) => (
-      <span
-        key={index}
-        className='rounded-full bg-primary-300 px-2 py-1 text-xs font-semibold text-black'
-      >
-        {tag}
-      </span>
-    ))
-  }
+  const { texts } = useContext(LanguageContext)
+  const { projects } = texts.projects
   const imageStyle = image
     ? 'opacity-0 hover:opacity-100'
     : 'opacity-100 hover:opacity-0'
@@ -35,28 +32,13 @@ const ProjectCard = ({
           alt={title}
           className='h-full w-full'
         />
-        {demo ? (
-          <a
-            target='_blank'
-            rel='noreferrer noopener'
-            href={demo}
-            className={`absolute top-0 flex h-full w-full items-center justify-center bg-black/80 text-xl text-white ${imageStyle} transition duration-300 ease-in-out `}
-          >
-            <span>Deploy</span>
-            <BiLinkExternal className='ml-2 h-6 w-6' />
-          </a>
-        ) : (
-          <div
-            className={`${imageStyle} absolute top-0 flex h-full w-full items-center justify-center bg-black/80 text-xl text-white transition duration-300 ease-in-out`}
-          >
-            <span>{status ?? 'No demo available'}</span>
-          </div>
-        )}
+        <ProjectDemo demo={demo} status={status} imageStyle={imageStyle} />
       </div>
-      <p className='h-24 w-full p-5 text-sm'>{description}</p>
-      {/* <p className='w-full pl-5 font-inter text-xs '>{tags.join(' - ')}</p> */}
+      <p className='h-24 w-full p-5 text-sm'>
+        {projects.find(el => el[id])?.[id]?.description}
+      </p>
       <div className='flex flex-wrap items-center gap-2 px-5'>
-        {renderTags()}
+        <ListOfTags tags={tags} />
       </div>
       <div className='absolute bottom-5 right-5  flex items-center justify-end gap-2'>
         {demo && (

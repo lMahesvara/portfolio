@@ -1,7 +1,7 @@
 import Home from './components/Home'
 import Header from './components/header/Header'
 import Skills from './components/Skills'
-import Projects from './components/Projects'
+import Projects from './components/projects/Projects'
 import Contact from './components/Contact'
 import ScrollToTop from 'react-scroll-to-top'
 import { AiOutlineArrowUp } from 'react-icons/ai'
