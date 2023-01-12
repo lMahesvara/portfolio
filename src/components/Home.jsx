@@ -1,5 +1,5 @@
 import Lottie from 'lottie-react'
-import lottieImage from '../img/web-dev.json'
+import lottieImage from '../../assets/img/web-dev.json'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { useContext } from 'react'
 import LanguageContext from '../context/LanguageContext'
