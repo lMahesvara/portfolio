@@ -88,8 +88,8 @@
     "projects": {
       "title": "Projects",
       "description": "These are some of the projects I have participated in.",
-      "more": "See more",
-      "less": "See less",
+      "more": "Show more",
+      "less": "Show less",
       "projects": [
         {
           "newsApp": {
