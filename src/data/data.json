@@ -106,7 +106,7 @@
       "title": "Portfolio",
       "image": "ejemplo.jpg",
       "description": "Portfolio personal",
-      "demo": "http://localhost:5173/",
+      "demo": "https://erick-bernal.vercel.app/",
       "github": "https://github.com/lMahesvara/portfolio",
       "tags": ["React", "TailwindCSS"]
     }
