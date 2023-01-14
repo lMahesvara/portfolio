@@ -5,10 +5,6 @@ import LanguageContext from '../context/LanguageContext'
 const Contact = () => {
   const { texts } = useContext(LanguageContext)
   const { contact } = texts
-  const handleSubmit = e => {
-    e.preventDefault()
-    console.log('Form Submitted')
-  }
 
   return (
     <section
@@ -17,7 +13,9 @@ const Contact = () => {
     >
       <SectionTitle>{contact.title}</SectionTitle>
       <form
-        onSubmit={handleSubmit}
+        action='https://formsubmit.io/send/a44d3525-4b8a-411d-96b9-08010560673f'
+        method='POST'
+        target='_blank'
         className='flex w-full max-w-3xl flex-col items-start gap-4 px-4 pb-4
         '
       >
