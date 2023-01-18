@@ -33,7 +33,7 @@ const ProjectCard = ({
         />
         <ProjectDemo demo={demo} status={status} image={image} />
       </div>
-      <p className='h-24 w-full p-5 text-sm'>
+      <p className='mb-2 h-24 w-full p-5 text-sm'>
         {projects.find(el => el[id])?.[id]?.description}
       </p>
       <div className='flex flex-wrap items-center gap-2 px-5'>
