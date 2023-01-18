@@ -124,7 +124,7 @@
         {
           "botComparator": {
             "title": "Bot Comparator",
-            "description": "Web application that helps compare the prices of products in different stores. Data collected through web scraping."
+            "description": "Web application that helps to compare the prices of products in different stores. Data collected through web scraping."
           }
         },
         {
