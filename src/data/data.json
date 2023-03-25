@@ -1,6 +1,18 @@
 {
   "skills": [
     {
+      "title": "Next Js",
+      "image": "nextjs.png"
+    },
+    {
+      "title": "TypeScript",
+      "image": "typescript.svg"
+    },
+    {
+      "title": "Electron",
+      "image": "electron.svg"
+    },
+    {
       "title": "React",
       "image": "react.svg"
     },
@@ -23,6 +35,14 @@
     {
       "title": "TailwindCSS",
       "image": "tailwindcss.svg"
+    },
+    {
+      "title": "Node Js",
+      "image": "nodejs.svg"
+    },
+    {
+      "title": "Express",
+      "image": "express.svg"
     },
     {
       "title": "MySQL",
