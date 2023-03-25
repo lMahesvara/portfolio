@@ -5,20 +5,20 @@
       "image": "nextjs.png"
     },
     {
-      "title": "TypeScript",
-      "image": "typescript.svg"
-    },
-    {
-      "title": "Electron",
-      "image": "electron.svg"
-    },
-    {
       "title": "React",
       "image": "react.svg"
     },
     {
+      "title": "TypeScript",
+      "image": "typescript.svg"
+    },
+    {
       "title": "JavaScript",
       "image": "javascript.svg"
+    },
+    {
+      "title": "Electron",
+      "image": "electron.svg"
     },
     {
       "title": "Java",
