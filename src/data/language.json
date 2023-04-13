@@ -15,6 +15,12 @@
       "less": "Ver menos",
       "projects": [
         {
+          "comicLand": {
+            "title": "Comic Land",
+            "description": "E-commerce de articulos coleccionables con carrito de compras y checkout. Implementando y consumiento una API para el manejo de datos."
+          }
+        },
+        {
           "newsApp": {
             "title": "NewsApp",
             "description": "Aplicación web de noticias con diferentes categorías y búsqueda, consumiendo una API externa."
@@ -91,6 +97,12 @@
       "more": "Show more",
       "less": "Show less",
       "projects": [
+        {
+          "comicLand": {
+            "title": "Comic Land",
+            "description": "E-commerce of collectible merchandise with shopping cart and checkout. Implementing and consuming an API for data management."
+          }
+        },
         {
           "newsApp": {
             "title": "NewsApp",

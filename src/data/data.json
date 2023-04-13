@@ -59,6 +59,23 @@
   ],
   "projects": [
     {
+      "id": "comicLand",
+      "title": "ComicLand",
+      "image": "comic-land.png",
+      "description": "",
+      "demo": "https://c9-07.up.railway.app/",
+      "github": "",
+      "tags": [
+        "Next",
+        "TypeScript",
+        "TailwindCSS",
+        "Mobile-first",
+        "MongoDB",
+        "Express",
+        "NodeJS"
+      ]
+    },
+    {
       "id": "newsApp",
       "title": "NewsApp",
       "image": "news-app.png",

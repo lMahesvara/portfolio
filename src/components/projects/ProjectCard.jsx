@@ -36,18 +36,20 @@ const ProjectCard = ({
       <p className='mb-2 h-24 w-full p-5 text-sm'>
         {projects.find(el => el[id])?.[id]?.description}
       </p>
-      <div className='flex flex-wrap items-center gap-2 px-5'>
+      <div className='my-2 flex flex-wrap items-center gap-2 px-5'>
         <ListOfTags tags={tags} />
       </div>
-      <div className='absolute bottom-5 right-5  flex items-center justify-end gap-2'>
+      <div className='absolute bottom-3 right-5  flex items-center justify-end gap-2'>
         {demo && (
           <a target='_blank' rel='noreferrer noopener' href={demo}>
             <BiLinkExternal className=' h-6 w-6 text-black transition-all duration-300  hover:text-primary-700' />
           </a>
         )}
-        <a target='_blank' rel='noreferrer noopener' href={github}>
-          <AiFillGithub className='h-6 w-6 text-black transition-all duration-300  hover:text-primary-700' />
-        </a>
+        {github && (
+          <a target='_blank' rel='noreferrer noopener' href={github}>
+            <AiFillGithub className='h-6 w-6 text-black transition-all duration-300  hover:text-primary-700' />
+          </a>
+        )}
       </div>
     </article>
   )
