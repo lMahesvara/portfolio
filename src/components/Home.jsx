@@ -28,7 +28,7 @@ const Home = () => {
             <AiFillGithub className='h-8 w-8 text-white transition-all duration-300 hover:text-primary-200' />
           </a>
           <a
-            href='https://www.linkedin.com/in/erick-bernal-amparano-66465b248/'
+            href='https://www.linkedin.com/in/erickba'
             target='_blank'
             rel='noreferrer noopener'
           >
