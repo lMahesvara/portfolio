@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <symbol height="2500" id="svg_4" viewBox="0 0 192.756 192.756" width="2500" xmlns="http://www.w3.org/2000/svg">
+   <g clip-rule="evenodd" fill-rule="evenodd" id="svg_1">
+    <path d="m0,0l192.76,0l0,192.76l-192.76,0l0,-192.76z" fill="#000" id="svg_2"/>
+    <path d="m139.74,137.12c9.7,0 15.5,-6.94 15.5,-15.5c0,-8.56 -5.8,-15.5 -15.5,-15.5l-31.45,0l0,31l31.45,0zm0,-54.03c8.53,0 13.73,-6.15 13.73,-13.73c0,-7.58 -5.2,-13.73 -13.73,-13.73l-31.45,0l0,27.46l31.45,0zm-75.74,23.03l0,7.68l-19.48,0l0,-38.38l19.48,0l0,7.67l18.61,0l0,-27.46l-46.87,0l0,9.75l-19.48,0l0,-9.75l0,-19.48l123.48,0c19.32,0 34.99,15.66 34.99,34.98a34.85,34.85 0 0 1 -8.67,23.06c6.46,6.62 10.44,15.68 10.44,25.66c0,20.3 -16.46,36.76 -36.76,36.76l-123.48,0l0,-19.48l0,-9.75l19.48,0l0,9.75l46.87,0l0,-31.01l-18.61,0zm93.38,15.5c0,9.64 -6.66,17.64 -17.64,17.64l-33.58,0l0,-35.28l33.58,0c10.98,0 17.64,8.01 17.64,17.64zm-1.77,-52.26c0,8.66 -6.06,15.87 -15.87,15.87l-33.58,0l0,-31.74l33.58,0c9.81,0 15.87,7.21 15.87,15.87zm-93.75,42.3l0,-7.68l22.88,0l0,35.28l-51.13,0l0,-9.74l-15.22,0l0,7.6l0.01,17.35l121.34,0c19.12,0 34.62,-15.5 34.62,-34.62c0,-9.4 -3.74,-17.93 -9.83,-24.17l-1.38,-1.41l1.3,-1.49a32.72,32.72 0 0 0 8.14,-21.65c0,-18.14 -14.71,-32.85 -32.85,-32.85l-121.34,0l0,17.35l-0.01,7.61l15.22,0l0,-9.75l51.13,0l0,31.74l-22.88,0l0,-7.68l-15.2,0l0,34.11l15.2,0l0,0z" id="svg_3"/>
+   </g>
+  </symbol>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <use fill="#ffffff" id="svg_5" stroke="#000000" stroke-opacity="0" transform="matrix(0.189894 0 0 0.189894 683.214 691.67)" x="-3583.49" xlink:href="#svg_4" y="-3628.02"/>
+  <rect fill="#ffffff" height="41.98" id="svg_8" stroke="#000000" stroke-opacity="0" width="312" x="47" y="94.52"/>
+  <rect fill="#ffffff" height="249.5" id="svg_11" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)" width="55" x="211" y="134"/>
+  <rect fill="#ffffff" height="30.07" id="svg_12" stroke="#000000" stroke-opacity="0" width="43.09" x="45.52" y="130.29"/>
+  <rect fill="#ffffff" height="44" id="svg_15" stroke="#000000" stroke-opacity="0" width="328.48" x="47.38" y="339.5"/>
+  <rect fill="#ffffff" height="22.5" id="svg_16" stroke="#000000" stroke-opacity="0" width="40.5" x="46.5" y="320"/>
+  <rect fill="#ffffff" height="50" id="svg_17" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)" width="291.5" x="114.5" y="211.5"/>
+  <rect fill="#ffffff" height="23" id="svg_18" stroke="#000000" stroke-opacity="0" width="43" x="115" y="191.5"/>
+  <rect fill="#ffffff" height="19" id="svg_19" stroke="#000000" stroke-opacity="0" width="40.5" x="116.5" y="261"/>
+  <ellipse cx="405" cy="176.5" fill="#ffffff" id="svg_20" rx="23.5" ry="49" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="342.23" cy="116.25" fill="#ffffff" id="svg_21" rx="47.73" ry="22.75" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="409.48" cy="297.25" fill="#ffffff" id="svg_23" rx="24.48" ry="58.75" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <rect fill="#ffffff" height="78" id="svg_24" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0) matrix(0.606043 -0.795432 0.795432 0.606043 -58.2829 400.322)" width="22" x="364" y="220"/>
+  <rect fill="#ffffff" height="43.69" id="svg_25" stroke="#000000" stroke-opacity="0" transform="matrix(0.624754 0.709187 -0.665922 0.685181 235.378 -231.58)" width="51.29" x="359.37" y="113.09"/>
+  <rect fill="#ffffff" height="23.56" id="svg_26" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0) rotate(-45.7015 401.82 122.589)" width="12.73" x="395.45" y="110.81"/>
+  <rect fill="#ffffff" height="43.13" id="svg_27" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0) matrix(0.78216 -0.623077 0.623077 0.78216 -133.937 316.095)" width="53.56" x="358.31" y="328.03"/>
+  <rect fill="#ffffff" height="47.15" id="svg_28" stroke="#000000" stroke-opacity="0" transform="matrix(0.773451 -0.639592 0.589757 0.838808 -38.8585 281.342)" width="48.2" x="364.1" y="193.02"/>
+  <rect fill="#ffffff" height="13" id="svg_29" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)" width="12.5" x="397.5" y="228.5"/>
+  <rect fill="#ffffff" height="18.01" id="svg_6" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)" width="16.77" x="381.12" y="265.65"/>
+  <rect fill="#ffffff" height="10.56" id="svg_7" stroke="#000000" stroke-opacity="0" width="14.29" x="386.09" y="319.38"/>
+ </g>
+</svg>
