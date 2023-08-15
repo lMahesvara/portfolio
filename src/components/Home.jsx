@@ -35,9 +35,8 @@ const Home = () => {
             <AiFillLinkedin className='h-8 w-8 text-white transition-all duration-300 hover:text-primary-200' />
           </a>
         </div>
-        {/* download a file */}
         <a
-          href='\src\data\Erick_Bernal_en_cv.pdf'
+          href='\Erick_Bernal_en_cv.pdf'
           download='Erick_Bernal_en_cv.pdf'
           className='rounded-md bg-primary-500 px-4 py-2 font-inter font-bold text-black transition duration-300 ease-in-out hover:bg-primary-200'
         >
