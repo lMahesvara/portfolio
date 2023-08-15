@@ -11,7 +11,6 @@ const LanguageProvider = ({ children }) => {
 
   const handleLanguage = e => {
     const { value } = e.target
-    console.log(value, e.target, e.target.value)
     setLanguage(value)
     setTexts(translations[value])
   }
