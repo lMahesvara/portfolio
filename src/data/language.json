@@ -15,6 +15,24 @@
       "less": "Ver menos",
       "projects": [
         {
+          "howler": {
+            "title": "Howler",
+            "description": "Red social que permite crear publicaciones, comentar, dar like, compartir, seguir a otros usuarios y recibir notificaciones en tiempo real."
+          }
+        },
+        {
+          "whatsapp": {
+            "title": "WhatsApp Clone",
+            "description": "Clon de Whats app que permite crear una cuenta y crear conversaciones con otros usuarios. Implementando y consumiento una API para el manejo de datos."
+          }
+        },
+        {
+          "comercializadora": {
+            "title": "Comercializadora",
+            "description": "Aplicación de escritorio para la gestión de inventario, clientes y ventas de una comercializadora de productos de mariscos."
+          }
+        },
+        {
           "comicLand": {
             "title": "Comic Land",
             "description": "E-commerce de articulos coleccionables con carrito de compras y checkout. Implementando y consumiento una API para el manejo de datos."
@@ -97,6 +115,24 @@
       "more": "Show more",
       "less": "Show less",
       "projects": [
+        {
+          "howler": {
+            "title": "Howler",
+            "description": "Social network that allows you to create publications, comment, like, share, follow other users and receive real-time notifications."
+          }
+        },
+        {
+          "whatsapp": {
+            "title": "WhatsApp Clone",
+            "description": "Whats app clone that allows you to create an account and create conversations with other users. Implementing and consuming an API for data management."
+          }
+        },
+        {
+          "comercializadora": {
+            "title": "Comercializadora",
+            "description": "Desktop application for inventory management, customers and sales of a seafood products company."
+          }
+        },
         {
           "comicLand": {
             "title": "Comic Land",

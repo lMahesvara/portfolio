@@ -59,6 +59,59 @@
   ],
   "projects": [
     {
+      "id": "howler",
+      "title": "Howler",
+      "image": "howler.png",
+      "description": "",
+      "demo": "",
+      "github": "https://github.com/lMahesvara/howler-front",
+      "tags": [
+        "Next",
+        "JavaScript",
+        "TailwindCSS",
+        "MongoDB",
+        "Express",
+        "NextAuth",
+        "NodeJS",
+        "Cloudinary"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "title": "WhatsApp Clone",
+      "image": "whatsapp.png",
+      "description": "",
+      "demo": "",
+      "github": "https://github.com/lMahesvara/whatsapp-front",
+      "tags": [
+        "Next",
+        "TypeScript",
+        "TailwindCSS",
+        "MongoDB",
+        "Express",
+        "Socket IO",
+        "NextAuth",
+        "NodeJS"
+      ]
+    },
+    {
+      "id": "comercializadora",
+      "title": "Comercializadora",
+      "image": "comercializadora.png",
+      "description": "",
+      "demo": "",
+      "github": "https://github.com/lMahesvara/comercializadora-front",
+      "tags": [
+        "Electron",
+        "Next",
+        "TypeScript",
+        "TailwindCSS",
+        "Java",
+        "Spring Boot",
+        "MySQL"
+      ]
+    },
+    {
       "id": "comicLand",
       "title": "ComicLand",
       "image": "comic-land.png",
